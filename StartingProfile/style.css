@@ -1,0 +1,234 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  #main-body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+#main-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Navigation styling */
+#main-nav {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #4CAF50;
+}
+
+/* Footer styling */
+#main-footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+}
+#college-life-body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header-title, .section-title, .job-title, .project-title {
+  color: #4CAF50;
+}
+
+#college-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-contact {
+  margin: 5px 0;
+}
+
+.contact-link {
+  color: white;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+.section-content {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+#skills-section .skills-details, #education-section .education-details, #education-section .education-courses, .section-paragraph {
+  margin: 5px 0;
+}
+
+/* Footer styling */
+#college-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#motivational-body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#motivational-header {
+  background-color: #4CAF50;
+  color: white; /* Set the header text color to white */
+  text-align: center;
+  padding: 20px;
+}
+
+.header-title {
+  margin: 0;
+  color: white; /* Ensure the title text is white */
+}
+
+.header-subtitle {
+  font-size: 18px;
+  margin: 0;
+  color: white; /* Ensure the subtitle text is white */
+}
+
+#speeches-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.speech {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.speech-title {
+  color: #4CAF50;
+  margin: 0 0 5px 0;
+}
+
+.speaker-details {
+  font-style: italic;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.speech-content {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-left: 4px solid #4CAF50;
+}
+
+#motivational-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
